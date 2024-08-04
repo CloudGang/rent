@@ -14,9 +14,9 @@ app.use(cors({
 
 const pool = new Pool({
   user: 'supreme',
-  host: 'stoic-duke-15588.7tt.aws-us-east-1.cockroachlabs.cloud',
+  host: 'connectordector-15608.7tt.aws-us-east-1.cockroachlabs.cloud',
   database: 'defaultdb',
-  password: 'Z0lGvbB_Hs7Lvt104K2ZFw',
+  password: '3Do-4GKNMvmv8AUwUCKmXw',
   port: 26257,
   ssl: {
     rejectUnauthorized: false,
