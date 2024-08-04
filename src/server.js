@@ -6,7 +6,10 @@ const app = express();
 const port = 5000;
 
 app.use(bodyParser.json());
-app.use(cors());
+app.use(cors({
+    origin: 'http://localhost:3000', // Update with your frontend's address
+    methods: ['POST', 'GET']
+  }));
 
 // PostgreSQL connection details for CockroachDB on AWS
 const pool = new Pool({
