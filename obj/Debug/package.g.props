@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <PropertyGroup>
+    <PackageJsonName Condition="$(PackageJsonName) == ''">rentable</PackageJsonName>
+    <PackageJsonVersion Condition="$(PackageJsonVersion) == ''">0.1.0</PackageJsonVersion>
+    <PackageJsonPrivate Condition="$(PackageJsonPrivate) == ''">true</PackageJsonPrivate>
+    <PackageJsonDependenciesReactGoogleMapsApi Condition="$(PackageJsonDependenciesReactGoogleMapsApi) == ''">^2.19.3</PackageJsonDependenciesReactGoogleMapsApi>
+    <PackageJsonDependenciesTestingLibraryJestDom Condition="$(PackageJsonDependenciesTestingLibraryJestDom) == ''">^5.17.0</PackageJsonDependenciesTestingLibraryJestDom>
+    <PackageJsonDependenciesTestingLibraryReact Condition="$(PackageJsonDependenciesTestingLibraryReact) == ''">^13.4.0</PackageJsonDependenciesTestingLibraryReact>
+    <PackageJsonDependenciesTestingLibraryUserEvent Condition="$(PackageJsonDependenciesTestingLibraryUserEvent) == ''">^13.5.0</PackageJsonDependenciesTestingLibraryUserEvent>
+    <PackageJsonDependenciesAxios Condition="$(PackageJsonDependenciesAxios) == ''">^1.7.3</PackageJsonDependenciesAxios>
+    <PackageJsonDependenciesEslintPluginReactRefresh Condition="$(PackageJsonDependenciesEslintPluginReactRefresh) == ''">^0.4.9</PackageJsonDependenciesEslintPluginReactRefresh>
+    <PackageJsonDependenciesLeaflet Condition="$(PackageJsonDependenciesLeaflet) == ''">^1.9.4</PackageJsonDependenciesLeaflet>
+    <PackageJsonDependenciesMapboxGl Condition="$(PackageJsonDependenciesMapboxGl) == ''">^3.5.2</PackageJsonDependenciesMapboxGl>
+    <PackageJsonDependenciesPg Condition="$(PackageJsonDependenciesPg) == ''">^8.12.0</PackageJsonDependenciesPg>
+    <PackageJsonDependenciesReact Condition="$(PackageJsonDependenciesReact) == ''">^18.3.1</PackageJsonDependenciesReact>
+    <PackageJsonDependenciesReactDom Condition="$(PackageJsonDependenciesReactDom) == ''">^18.3.1</PackageJsonDependenciesReactDom>
+    <PackageJsonDependenciesReactGeolocated Condition="$(PackageJsonDependenciesReactGeolocated) == ''">^4.1.2</PackageJsonDependenciesReactGeolocated>
+    <PackageJsonDependenciesReactLeaflet Condition="$(PackageJsonDependenciesReactLeaflet) == ''">^4.2.1</PackageJsonDependenciesReactLeaflet>
+    <PackageJsonDependenciesReactMapGl Condition="$(PackageJsonDependenciesReactMapGl) == ''">^7.1.7</PackageJsonDependenciesReactMapGl>
+    <PackageJsonDependenciesReactModel Condition="$(PackageJsonDependenciesReactModel) == ''">^4.3.1</PackageJsonDependenciesReactModel>
+    <PackageJsonDependenciesReactScripts Condition="$(PackageJsonDependenciesReactScripts) == ''">^5.0.1</PackageJsonDependenciesReactScripts>
+    <PackageJsonDependenciesWebVitals Condition="$(PackageJsonDependenciesWebVitals) == ''">^2.1.4</PackageJsonDependenciesWebVitals>
+    <PackageJsonScriptsStart Condition="$(PackageJsonScriptsStart) == ''">react-scripts start</PackageJsonScriptsStart>
+    <PackageJsonScriptsBuild Condition="$(PackageJsonScriptsBuild) == ''">react-scripts build</PackageJsonScriptsBuild>
+    <PackageJsonScriptsTest Condition="$(PackageJsonScriptsTest) == ''">react-scripts test</PackageJsonScriptsTest>
+    <PackageJsonScriptsEject Condition="$(PackageJsonScriptsEject) == ''">react-scripts eject</PackageJsonScriptsEject>
+    <PackageJsonEslintconfigExtends Condition="$(PackageJsonEslintconfigExtends) == ''">[
+  "react-app",
+  "react-app/jest"
+]</PackageJsonEslintconfigExtends>
+    <PackageJsonBrowserslistProduction Condition="$(PackageJsonBrowserslistProduction) == ''">[
+  "\u003E0.2%",
+  "not dead",
+  "not op_mini all"
+]</PackageJsonBrowserslistProduction>
+    <PackageJsonBrowserslistDevelopment Condition="$(PackageJsonBrowserslistDevelopment) == ''">[
+  "last 1 chrome version",
+  "last 1 firefox version",
+  "last 1 safari version"
+]</PackageJsonBrowserslistDevelopment>
+  </PropertyGroup>
+</Project>
